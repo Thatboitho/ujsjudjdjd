@@ -1089,8 +1089,8 @@ while event:Wait() do
 		if not mode then
             neck.C0 = neck.C0:Lerp(cf(0, 1, 0) * euler(-1.5882496193148399 + 0.08726646259971647 * sin((sine + -30) * 0.05), 0, -3.1590459461097367), 0.2) 
             rootJoint.C0 = rootJoint.C0:Lerp(cf(0, 0.1 * sin(sine * 0.05), 0) * euler(-1.5882496193148399 + 0.05235987755982989 * sin(sine * 0.05), 0, -3.1590459461097367), 0.2) 
-            leftShoulder.C0 = leftShoulder.C0:Lerp(cf(-1, 0.50 + 0 * sin((sine + -15) * 0.05), 0.2 + 0 * sin(sine * 0.05)) * euler(1.6 + 0.08726646259971647 * sin(sine * 0.05), -1.9, 1.5), 0.2) 
-            rightShoulder.C0 = rightShoulder.C0:Lerp(cf(1, 0.50 + 0 * sin((sine + -15) * 0.05), 0.2 + 0 * sin(sine * 0.05)) * euler(1.6 + 0.08726646259971647 * sin(sine * 0.05), 1.9, -1.5), 0.2) 
+            leftShoulder.C0 = leftShoulder.C0:Lerp(cf(-1, 0.50 + 0 * sin((sine + -15) * 0.05), 0.2 + 0 * sin(sine * 0.05)) * euler(1.6 + 0.08726646259971647 * sin(sine * 0.05), -1.6, 1.5), 0.2) 
+            rightShoulder.C0 = rightShoulder.C0:Lerp(cf(1, 0.50 + 0 * sin((sine + -15) * 0.05), 0.2 + 0 * sin(sine * 0.05)) * euler(1.6 + 0.08726646259971647 * sin(sine * 0.05), 1.6, -1.5), 0.2) 
             leftHip.C0 = leftHip.C0:Lerp(cf(-1, -1 + -0.1 * sin(sine * 0.05), 0.05 * sin(sine * 0.05)) * euler(1.5707963267948966, -1.6580627893946132, 1.5707963267948966 + 0.05235987755982989 * sin(sine * 0.05)), 0.2) 
             rightHip.C0 = rightHip.C0:Lerp(cf(1, -1 + -0.1 * sin(sine * 0.05), 0.05 * sin(sine * 0.05)) * euler(1.5707963267948966, 1.6580627893946132, -1.5707963267948966 + -0.05235987755982989 * sin(sine * 0.05)), 0.2) 
 		elseif mode == "russia" then
